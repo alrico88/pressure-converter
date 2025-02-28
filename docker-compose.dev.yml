@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  pressure:
+    build:
+      context: .
+    container_name: pressure
+    image: ghcr.io/alrico88/pressure-converter
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "8011:80"
+
