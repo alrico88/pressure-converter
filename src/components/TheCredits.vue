@@ -1,6 +1,6 @@
 <template>
-  <ul class="list-none text-sky-7 dark:text-sky-6 pl-0 pb-4">
-    <li class="inline mr-2">
+  <ul class="text-sky-7 dark:text-sky-6 list-none pb-4 pl-0">
+    <li class="mr-2 inline">
       <div class="i-tabler-info-circle"></div>
       Created by
       <a :href="siteLink" target="_blank" class="text-sky-9 dark:text-sky-4"
@@ -18,6 +18,6 @@
 </template>
 
 <script setup lang="ts">
-const siteLink = 'https://alrico.es';
-const repoLink = 'https://github.com/alrico88/pressure-converter';
+const siteLink = "https://alrico.es";
+const repoLink = "https://github.com/alrico88/pressure-converter";
 </script>
